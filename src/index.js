@@ -1,8 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { createRoot } from 'react-dom/client'; //React v18
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+//React v18
+// const container = document.getElementById('root');
+// const root = createRoot(container);
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>  
+// );
 
 ReactDOM.render(
   <React.StrictMode>
